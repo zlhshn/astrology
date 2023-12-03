@@ -5,15 +5,15 @@ Creating a project using react and scss together
 
 
 ##  Link of the Project
-[Live](https://astrology-rct.vercel.app/)
+[Live](https://astrology-rct.vercel.app)
 
-In the project directory, you can run:
 
-### `npm install`  &   `npm start`
 
-OR
 
-### `yarn install`   &  `yarn start`
+
+
+## How does my project look
+![horoscope](./public/horoscope.gif)
 
 
 
@@ -25,14 +25,12 @@ OR
 * Components
 
 
-## How does my project look /  Screenshots
-![horoscope]()
 
+In the project directory, you can run:
 
+### `npm install`  &   `npm start`
 
+OR
 
-
-
-
-
+### `yarn install`   &  `yarn start`
 
