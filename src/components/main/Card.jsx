@@ -3,11 +3,16 @@ import "./Main.scss";
 const Card = ({ title, desc, image, date }) => {
   return (
     <div className="card">
-      <h2 className="card-title">{title}</h2>
+      <div className="card-title">
+        <h1>{title}</h1>
+      </div>
+      <div className="date">
+        <h1>{date}</h1>
+      </div>
       <img src={image} alt={title} />
-
-      <p className="date">{date}</p>
-      <p className="desc">{desc}</p>
+      <div className="desc">
+        <p>{desc}</p>
+      </div>
     </div>
   );
 };
