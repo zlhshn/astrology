@@ -15,9 +15,3 @@
       @content;
     }
   }
-
-  @mixin media-xsm {
-    @media screen and (max-width: 0px) {
-      @content;
-    }
-  }

@@ -1,0 +1,19 @@
+footer{
+
+    padding: 3rem;
+    text-align: center;
+    background: #3d98afb9;
+    font-family: "Rubik Distressed", cursive;
+
+    i{
+        margin-right: 2rem;
+        font-size: 2rem;
+
+     &:hover{
+        
+        color:black;
+        cursor: pointer;
+        transform: scale(1.4);
+     }   
+    }
+}
