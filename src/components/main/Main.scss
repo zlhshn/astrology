@@ -1,10 +1,12 @@
 @import "../../scss/mixins";
 @import "../../scss/variables";
+@import "../../scss/responsive";
 @import url(https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap);
 
 main {
   background: $backgroundMain;
   background: $Gradient;
+  padding: 3rem;
 }
 
 header {
@@ -63,6 +65,7 @@ header {
       font-size: 1.2rem;
       z-index: 2;
       padding: 0 0.6rem;
+      color: #297c91;
     }
 
     img {
@@ -84,6 +87,7 @@ header {
       border-radius: 10px;
       font-size: 0.4rem;
       z-index: 2;
+      color: #297c91;
     }
 
     .desc {
@@ -118,5 +122,13 @@ header {
     &:hover img {
       filter: none;
     }
+  }
+}
+
+
+@include media-lg{
+ 
+  header{
+    display: none;
   }
 }
